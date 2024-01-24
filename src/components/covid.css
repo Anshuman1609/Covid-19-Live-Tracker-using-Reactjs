@@ -77,3 +77,16 @@ ul{
 .l6{
     background-color: brown;
 }
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+h1 {
+  animation: pulse 1s infinite;
+}
